@@ -4,17 +4,17 @@ export const links = [
   {
     id: 1,
     text: 'home',
-    url: '/',
+    url: '/react-real-estate-main',
   },
   {
     id: 2,
     text: 'about',
-    url: '/about',
+    url: '/react-real-estate-main/about',
   },
   {
     id: 3,
     text: 'items',
-    url: '/items',
+    url: '/react-real-estate-main/items',
   },
 ];
 

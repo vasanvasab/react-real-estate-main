@@ -4,7 +4,7 @@ import { About, Error, Home, ItemsPage, Landing, SingleItem } from './pages';
 
 const router=createBrowserRouter([
   {
-    path:'/',
+    path:'/react-real-estate-main',
     element:<Home/>,
     errorElement:<Error/>,
     children:[
@@ -13,14 +13,14 @@ const router=createBrowserRouter([
         element:<Landing/>,
       },
       {
-        path:'items',
+        path:'/react-real-estate-main/items',
         element:<ItemsPage/>,
       },
       {
-        path:'items/:id',
+        path:'/react-real-estate-main/items/:id',
         element:<SingleItem/>
       },{
-        path:'about',
+        path:'/react-real-estate-main/about',
         element:<About/>
       }
     ]
